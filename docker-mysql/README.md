@@ -32,3 +32,4 @@ mysql> desc user;
 
 mysql> select user from user;
 ```
+Note: MySQL is case sensitive.
