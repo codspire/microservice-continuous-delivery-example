@@ -1,24 +1,34 @@
 #### Step 1: Build MySQL Docker Image
 ```sh
-docker build -t codspire/mysql .
+$ docker build -t codspire/mysql .
 ```
 
 #### Step 2: Run MySQL Docker Container
 ```sh
-docker run --name mysql-container -d -p 3306:3306 codspire/mysql
+$ docker run --name mysql-container -d -p 3306:3306 codspire/mysql
 ```
 
 #### Step 3: Check Container Status
 ```sh
-docker ps
+$ docker ps
 ```
 
-#### Step 4: ssh to database container
+#### Step 4: ssh to Database Container
 ```sh
-docker exec -i -t mysql-container bash
+$ docker exec -i -t mysql-container bash
 ```
 
-#### Step 5: Connect to MySQL database
+#### Step 5: Connect to MySQL Database
 ```sh
-mysql -uroot -ppassword
+$ mysql -uroot -ppassword
+
+mysql> show schemas;
+
+mysql> desc db;
+
+mysql> desc event;
+
+mysql> desc user;
+
+mysql> select user from user;
 ```
