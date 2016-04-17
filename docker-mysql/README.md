@@ -18,7 +18,7 @@ $ docker ps
 $ docker exec -i -t mysql-container bash
 ```
 
-#### Step 5: Connect to MySQL Database
+#### Step 5: Connect to MySQL Database (command prompt)
 ```sh
 $ mysql -uroot -ppassword
 
@@ -34,7 +34,8 @@ mysql> select user from user;
 ```
 Note: MySQL is case sensitive.
 
-#### Step 5: Connect Using Database Client (e.g. SQuirrel SQL Client)
+#### or
+#### Connect Using Database Client (e.g. SQuirrel SQL Client)
 
 `$ docker-machine ip default`
 
