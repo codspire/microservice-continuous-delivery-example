@@ -34,8 +34,7 @@ mysql> select user from user;
 ```
 Note: MySQL is case sensitive.
 
-#### or
-#### Connect Using Database Client (e.g. SQuirrel SQL Client)
+#### OR Connect Using Database Client (e.g. SQuirrel SQL Client)
 
 `$ docker-machine ip default`
 
@@ -44,8 +43,6 @@ Will return the Container IP addess
 Create new Connection in SQL Client using
 
 **URL** = `jdbc:mysql://<IP Address>:3306/mysql`
-
 **User Name** = `root`
-
 **Password** = `password`
 
