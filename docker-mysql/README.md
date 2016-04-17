@@ -43,6 +43,8 @@ Will return the Container IP addess
 Create new Connection in SQL Client using
 
 **URL** = `jdbc:mysql://<IP Address>:3306/mysql`
+
 **User Name** = `root`
+
 **Password** = `password`
 
