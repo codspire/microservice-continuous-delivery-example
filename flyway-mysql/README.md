@@ -3,4 +3,6 @@
 
 Get container IP address by running `docker-machine ip default`
 
-mvn clean package flyway:baseline flyway:migrate flyway:info
+#### Step 2: Run flyway to perform database migration
+
+`mvn clean package flyway:baseline flyway:migrate flyway:info`
